@@ -1,7 +1,7 @@
 # letterboxd_shuffle
 Play a random movie from a list in one of your saved services.
 
-Prerequisites:
+# Prerequisites:
 
 Python 3.8
 
@@ -11,9 +11,9 @@ pywinauto
 
 
 
-Note: this probably won't work for you. It's designed, at the moment, with all the settings for my laptop and for google chrome. The infrastructure is all there though if you want to change some numbers and try to get it working.
+# Note: this probably won't work for you. It's designed, at the moment, with all the settings for my laptop and for google chrome. The infrastructure is all there though if you want to change some numbers and try to get it working.
 
-To use:
+# To use:
 
 Set RESOULUTION_X and RESOLUTION_Y
 
@@ -29,7 +29,7 @@ Enjoy a random movie
 
 
 
-Currently supports:
+# Currently supports:
 
 BBC iPlayer
 
