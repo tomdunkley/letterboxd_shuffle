@@ -1,14 +1,20 @@
 import win32api, win32con, time, win32gui, win32process, win32com.client, winsound
 from pywinauto.application import Application
 
+RESOLUTION_X = 1920
+RESOLUTION_Y = 1080
+
+
 def click(x,y):
+    x = int(x/1920*RESOLUTION_X)
+    y = int(y/1080*RESOLUTION_Y)
     win32api.SetCursorPos((x,y))
     time.sleep(0.1)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,x,y,0,0)
 
 def scroll(n):
-    win32api.mouse_event(win32con.MOUSEEVENTF_WHEEL, 300, 300, -n, 0)
+    win32api.mouse_event(win32con.MOUSEEVENTF_WHEEL, int(300/1920*RESOLUTION_X), int(300/1080*RESOLUTION_Y), -n, 0)
 
 click(100,50)
 time.sleep(3)
