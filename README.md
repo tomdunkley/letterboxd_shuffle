@@ -11,7 +11,7 @@ pywinauto
 
 
 
-# Note: this probably won't work for you. It's designed, at the moment, with all the settings for my laptop and for google chrome. The infrastructure is all there though if you want to change some numbers and try to get it working.
+#### Note: this probably won't work for you. It's designed, at the moment, with all the settings for my laptop and for google chrome. The infrastructure is all there though if you want to change some numbers and try to get it working.
 
 # To use:
 
